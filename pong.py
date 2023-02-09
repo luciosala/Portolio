@@ -109,5 +109,3 @@ while True:
         ball.setx(-320)
         ball.dy += 1/5
         ball.dy += 1/5
-    if ball.xcor() > - 320:
-        paddle_b.color(tuple(np.random.randint(256, size=3)))
